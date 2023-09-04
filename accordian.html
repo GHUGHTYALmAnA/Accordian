@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian</title>
+    <script src="https://kit.fontawesome.com/5d8911dcf9.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            padding: 40px;
+            line-height: 1.2rem;
+            border: 2px solid black;
+        }
+        .accordian{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px gray;
+            cursor: pointer;
+        }
+        .answer{
+            max-height: 0;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+        }
+        .answer.active{
+            max-height: 200px;
+            transition: 0.5s ease-in-out;
+        }
+        .question{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .icon{
+            margin: 20px;
+            transition: 0.5 linear;
+        }
+        .icon.active{
+            transform: rotate(-180deg);
+            transition: 0.5 linear;
+        }
+    </style>
+</head>
+<body>
+    <!-- accordian 1 -->
+    <div class="accordian">
+        <div class="question">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia temporibus fugit, vel voluptatum dolorem tempora porro consequatur obcaecati corporis aperiam optio esse neque nisi voluptas doloremque reprehenderit! Nulla, quidem?
+            Maiores, accusantium tempora explicabo officiis minima modi molestiae est, facilis dolorem repellendus minus atque sunt provident eaque libero, cum magnam omnis? Consequatur voluptatum voluptates libero, at dicta accusantium recusandae corporis.
+            Numquam quam nesciunt tempore rerum esse laborum fuga quidem commodi tempora aspernatur illo sequi beatae voluptates, consectetur eligendi repellendus molestias totam voluptatum quis. Natus odit facilis, dolorum quibusdam voluptates sint.
+            Voluptatibus, itaque quo minus esse, ducimus dolor, quasi magni sit nulla molestiae eum illum? Ea adipisci vel obcaecati laudantium praesentium dolorem totam doloribus, suscipit nihil quae voluptas consequuntur exercitationem dolore!
+            Vero neque laboriosam accusantium. Mollitia nobis quas nulla non dolore eaque ut magnam animi culpa magni corporis qui in alias tenetur consequatur laboriosam, facere odio quia debitis distinctio, iste ratione?
+            </p>
+        </div>
+    </div>
+    <!-- accordian 2 -->
+    <div class="accordian">
+        <div class="question">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aut numquam rerum culpa nihil quidem ea nobis, dignissimos explicabo ducimus! Eum quo vero explicabo corporis perspiciatis, vel rerum commodi enim.
+            Quos dolores laudantium sequi a natus quod, autem mollitia aliquam dolorem doloribus maxime adipisci aliquid tenetur dolor. Quas, natus commodi, minus ad nisi officiis ea id quae, molestias deserunt sunt.
+            Delectus maxime at error, hic suscipit porro similique reprehenderit libero! Sint mollitia asperiores vero ea eveniet qui soluta expedita, hic dolorum quos labore nam at itaque dolor quasi ratione suscipit.
+            Ut accusantium repellat reiciendis voluptatibus dolores illo ducimus vero porro, non maiores animi, consequuntur magnam eaque earum beatae perferendis autem impedit officia nobis recusandae nam dolor fugit omnis maxime! Sit.
+            Eaque nesciunt consectetur quaerat molestiae quae, recusandae harum repellendus iste totam quod delectus ab in doloribus voluptatum quisquam explicabo earum aperiam debitis? Animi necessitatibus voluptates veritatis assumenda unde, temporibus fugit.</p>
+        </div>
+    </div>
+    <!-- accordian 3 -->
+    <div class="accordian">
+        <div class="question">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <i class="icon fa-solid fa-caret-down"></i>
+        </div>
+        <div class="answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus hic ut cupiditate. Saepe asperiores voluptas quidem, porro sequi nobis deleniti doloribus fugiat unde id! Quo pariatur maxime odit accusantium nam.
+            Odio, ipsum praesentium asperiores culpa eaque adipisci ullam rem aperiam odit quos eligendi nesciunt sit harum porro quasi. Est nemo autem rem, officiis deleniti exercitationem voluptate soluta adipisci optio. Eius.
+            Tempore corrupti quam hic impedit perspiciatis accusamus aliquid reprehenderit quas veritatis tenetur dolore reiciendis, voluptas enim, officiis ipsum repellat excepturi accusantium animi consequatur quos magni aperiam voluptates consequuntur porro! Culpa.
+            Ex porro magni quisquam quas veritatis? Repudiandae, quibusdam nemo. Animi iste, ipsam voluptatum neque vitae quae mollitia deserunt aperiam, sunt doloribus, eos placeat ullam pariatur fuga minus consequuntur quos vero.
+            A eius deserunt dolorum. Explicabo sapiente quae saepe esse porro alias iste autem, laudantium ipsum inventore? Minus nam officia, quisquam necessitatibus nulla repudiandae vel odio. Eius provident voluptates aut delectus!
+            Quidem dolore, rerum voluptate laudantium soluta, enim ratione quo ullam numquam possimus doloremque, error dolores omnis vitae facilis quia illo quaerat culpa impedit vel magnam libero. Laboriosam possimus fugit doloremque?
+            </p>
+        </div>
+    </div>
+    <script src="accordian.js"></script>
+</body>
+</html>
